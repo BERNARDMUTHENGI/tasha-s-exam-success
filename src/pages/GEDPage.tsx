@@ -3,7 +3,7 @@ import { MessageCircle, CheckCircle, Clock, Users, BookOpen, Award, Target, Calc
 import { Layout } from "@/components/layout/Layout";
 import gedImage from "@/assets/ged-student.jpg";
 
-const WHATSAPP_LINK = "https://wa.me/1234567890?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20GED%20exam!";
+const WHATSAPP_LINK = "https://wa.me/(945)254-1030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20GED%20exam!";
 
 const subjects = [
   {
@@ -53,8 +53,8 @@ const GEDPage = () => {
           <div className="max-w-3xl">
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-background mb-6">
-              Earn Your GED with{" "}
-              <span className="bg-gradient-warm bg-clip-text text-transparent">Expert Support</span>
+              Earn Your GED with {"Tasha "}
+              
             </h1>
             <p className="text-lg md:text-xl text-background/80 mb-8 leading-relaxed">
               It's never too late to achieve your high school equivalency diploma. With TashaTheWriter's patient guidance and proven methods, you'll gain the knowledge and confidence to pass your GED exam.

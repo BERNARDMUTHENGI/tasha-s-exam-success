@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, CheckCircle, FileText, PenTool, GraduationCap, BookOpen, ClipboardList, Users } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 
-const WHATSAPP_LINK = "https://wa.me/1234567890?text=Hello%20Tasha%2C%20I%20need%20help%20with%20other%20academic%20services!";
+const WHATSAPP_LINK = "https://wa.me/(945)254-1030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20other%20academic%20services!";
 
 const services = [
   {

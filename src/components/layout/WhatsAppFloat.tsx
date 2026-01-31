@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/1234567890?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
+const WHATSAPP_LINK = "https://wa.me/(945)254-1030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
 
 export const WhatsAppFloat = () => {
   return (
@@ -8,7 +8,7 @@ export const WhatsAppFloat = () => {
       href={WHATSAPP_LINK}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 w-14 h-14 lg:w-16 lg:h-16 rounded-full bg-gradient-cta flex items-center justify-center shadow-cta animate-pulse-glow hover:scale-110 transition-transform duration-300 group"
+      className="fixed bottom-6 right-6 z-50 w-14 h-14 lg:w-16 lg:h-16 rounded-full bg-green-600 flex items-center justify-center shadow-cta animate-pulse-glow hover:scale-110 transition-transform duration-300 group"
       aria-label="Contact on WhatsApp"
     >
       <MessageCircle className="w-7 h-7 lg:w-8 lg:h-8 text-white" />
