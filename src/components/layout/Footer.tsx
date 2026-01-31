@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { MessageCircle, Mail, Phone } from "lucide-react";
-import TashaLogo from "@/assets/tasha.jpeg";
+import TashaLogo from "../../../public/tasha.jpeg";
 const WHATSAPP_LINK =
   "https://wa.me/19452541030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
 

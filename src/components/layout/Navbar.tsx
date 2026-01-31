@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import TashaLogo from "@/assets/tasha.jpeg";
+import TashaLogo from "../../../public/tasha.jpeg";
 
 const navLinks = [
   { name: "HESI", href: "/hesi" },
