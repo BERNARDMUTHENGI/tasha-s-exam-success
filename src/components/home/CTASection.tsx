@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 const WHATSAPP_LINK =
-  "https://wa.me/2549452541030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
+  "https://wa.me/19452541030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
+
 
 
 export const CTASection = () => {

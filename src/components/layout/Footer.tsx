@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { MessageCircle, Mail, Phone } from "lucide-react";
 import TashaLogo from "@/assets/tasha.jpeg";
-
 const WHATSAPP_LINK =
-  "https://wa.me/2549452541030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
+  "https://wa.me/19452541030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
+
 
 
 export const Footer = () => {
@@ -142,7 +142,7 @@ export const Footer = () => {
                   className="flex items-center gap-2 text-background/70 hover:text-primary transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  (945)254-1030
+                  +1(945)254-1030
                 </a>
               </li>
             </ul>
