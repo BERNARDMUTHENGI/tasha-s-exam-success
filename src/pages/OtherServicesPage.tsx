@@ -44,9 +44,7 @@ const OtherServicesPage = () => {
       <section className="py-20 lg:py-28 bg-gradient-hero">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl text-center mx-auto">
-            <span className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Additional Services
-            </span>
+           
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               More Ways We Can{" "}
               <span className="text-brand-yellow">Help You Succeed</span>

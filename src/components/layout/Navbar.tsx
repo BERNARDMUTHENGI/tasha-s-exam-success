@@ -51,7 +51,7 @@ export const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <Button variant="whatsapp" size="lg" asChild>
+            <Button variant="whatsapp"  size="lg" asChild>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-5 h-5" />
                 Contact on WhatsApp
