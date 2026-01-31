@@ -87,10 +87,10 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/#testimonials"
+                  to="/Home"
                   className="text-background/70 hover:text-primary transition-colors"
                 >
-                  Success Stories
+                  Home
                 </Link>
               </li>
               <li>
@@ -153,7 +153,7 @@ export const Footer = () => {
           <p className="text-background/50 text-sm">
             © {new Date().getFullYear()} TashaTheWriter. All rights reserved.
           </p>
-          <div className="flex gap-6">
+          {/* <div className="flex gap-6">
             <Link
               to="/privacy"
               className="text-background/50 hover:text-primary text-sm transition-colors"
@@ -166,7 +166,7 @@ export const Footer = () => {
             >
               Terms of Service
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
