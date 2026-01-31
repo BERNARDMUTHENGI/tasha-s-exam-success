@@ -3,7 +3,8 @@ import { MessageCircle, CheckCircle, Video, Calendar, Users, Laptop, Clock, Glob
 import { Layout } from "@/components/layout/Layout";
 import onlineImage from "@/assets/online-classes.jpg";
 
-const WHATSAPP_LINK = "https://wa.me/(945)254-1030?text=Hello%20Tasha%2C%20I%27m%20interested%20in%20online%20classes!";
+const WHATSAPP_LINK =
+  "https://wa.me/2549452541030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
 
 const features = [
   {
