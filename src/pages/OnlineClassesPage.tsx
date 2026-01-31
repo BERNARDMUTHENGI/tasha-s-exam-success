@@ -128,19 +128,20 @@ const OnlineClassesPage = () => {
                 ))}
               </ul>
             </div>
-            <div className="bg-gradient-hero rounded-2xl p-8 text-center text-white">
-              <Video className="w-16 h-16 mx-auto mb-6" />
-              <h3 className="text-2xl font-bold mb-4">Start Learning Today</h3>
-              <p className="text-white/90 mb-6">
-                Connect with Tasha on WhatsApp to schedule your first online session. Free consultation available!
-              </p>
-              <Button variant="whatsapp" size="xl" className="w-full" asChild>
-                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-                  <MessageCircle className="w-5 h-5" />
-                  Schedule Free Consultation
-                </a>
-              </Button>
-            </div>
+            <div className="bg-gradient-hero rounded-2xl p-6 sm:p-8 max-w-md mx-auto text-center text-white">
+            <Video className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-4 sm:mb-6" />
+            <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4">Start Learning Today</h3>
+            <p className="text-white/90 mb-4 sm:mb-6 text-sm sm:text-base">
+              Connect with Tasha on WhatsApp to schedule your first online session. Free consultation available!
+            </p>
+            <Button variant="whatsapp" size="lg" className="w-full" asChild>
+              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-5 h-5 mr-2" />
+                Schedule Free Consultation
+              </a>
+            </Button>
+          </div>
+
           </div>
         </div>
       </section>
