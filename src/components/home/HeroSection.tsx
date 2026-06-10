@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, CheckCircle, Award, Clock } from "lucide-react";
 import heroImage from "@/assets/hero-students.jpg";
 const WHATSAPP_LINK =
-  "https://wa.me/19452541030?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
+  "https://wa.me/19452542233?text=Hello%20Tasha%2C%20I%20need%20help%20with%20my%20exam!";
 
 
 export const HeroSection = () => {
