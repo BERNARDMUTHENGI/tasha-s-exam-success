@@ -142,7 +142,7 @@ export const Footer = () => {
                   className="flex items-center gap-2 text-background/70 hover:text-primary transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  +1(945)254-1030
+                  +1 (945) 254-2233
                 </a>
               </li>
             </ul>
